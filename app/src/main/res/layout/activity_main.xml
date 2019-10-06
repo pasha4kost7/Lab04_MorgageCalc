@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<TableLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin = "16dp"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="16dp">
+
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_1"
+            android:padding="10dip"
+            android:text="Amount"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_Amount"
+            android:text="$100,000.00"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_2"
+            android:padding="10dip"
+            android:text="Years"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_Years"
+            android:text="30"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_3"
+            android:padding="10dip"
+            android:text="Interest rate"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_Rate"
+            android:text="3.5%"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <!-- red line -->
+    <View
+        android:layout_height="5dip"
+        android:background="#FF0000" />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_5"
+            android:padding="10dip"
+            android:text="Monthly payment"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_MontlyPayment"
+            android:text="$500.01"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView_6"
+            android:padding="10dip"
+            android:text="Total payment"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_TotalPayment"
+            android:text="$160,000.00"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="50dip" >
+
+        <Button
+            android:id="@+id/Button_ModifyData"
+            android:onClick="modifyData"
+            android:text="Modify Data"
+            android:textSize="18sp" />
+    </TableRow>
+
+</TableLayout>
